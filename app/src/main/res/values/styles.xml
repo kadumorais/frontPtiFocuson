@@ -22,7 +22,7 @@
         <item name="android:layout_width">100dp</item>
         <item name="android:height">20dp</item>
         <item name="android:textColor">@color/orangeb</item>
-        <item name="android:fontFamily">@font/FontPrinc</item>
+        <item name="android:fontFamily">@font/fonteprincipal</item>
         <item name="android:textSize">20dp</item>
     </style>
 

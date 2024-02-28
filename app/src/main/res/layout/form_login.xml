@@ -21,7 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:background="@color/orangeb"
-        android:layout_marginTop="0dp"/>
+        android:layout_marginTop="0dp"
+        tools:ignore="MissingConstraints" />
 
     <View
         android:id="@+id/bottom_line"
@@ -91,10 +92,9 @@
         android:text="@string/focuson"
         android:gravity="center"
         android:textColor="@color/orangeb"
-        android:fontFamily="@font/FontPrinc"
+        android:fontFamily="@font/fonteprincipal"
         android:textSize="75sp"
-        app:layout_constraintTop_toBottomOf=""
         android:paddingTop="2dp"
-        android:layout_height="125dp"/>
+        android:layout_height="100dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

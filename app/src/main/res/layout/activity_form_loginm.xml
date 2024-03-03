@@ -33,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="@id/containerComponents"
         app:layout_constraintTop_toTopOf="@id/containerComponents"
         />
-    <!--caixa de nome de senha-->
+    <!--caixa de senha-->
     <EditText
         android:id="@+id/edit_password"
         style="@style/Edit_Text2"

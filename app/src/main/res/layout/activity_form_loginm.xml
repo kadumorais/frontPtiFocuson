@@ -65,7 +65,7 @@
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintTop_toTopOf="@id/edit_confirm" />
 
-    <!--caixa de chekin-->
+    <!--caixa de chebox-->
     <CheckBox
         android:id="@+id/minha_caixa_de_selecao"
         android:buttonTint="@color/orange"
@@ -81,7 +81,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         />
 
-    <!--caixa de chekin-->
+    <!--caixa de chekbox-->
     <CheckBox
         android:id="@+id/minha_caixa_de_selecao2"
         android:buttonTint="@color/orange"

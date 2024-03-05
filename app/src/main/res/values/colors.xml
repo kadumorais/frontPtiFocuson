@@ -9,4 +9,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blueb">#030E4F</color>
     <color name="orangeb">#F49F1C</color>
+    <!--aqui estão as cores do miguel-->
+    <color name="orange">#F49F1C</color>
+    <color name="blue">#030E4F</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray">#FFFFFF</color>
 </resources>

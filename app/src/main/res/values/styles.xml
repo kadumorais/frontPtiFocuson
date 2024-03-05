@@ -14,6 +14,7 @@
         <item name="android:padding">15dp</item>
         <item name="android:layout_marginTop">20dp</item>
         <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:maxLength">25</item>
         <item name="android:layout_marginRight">40dp</item>
     </style>
 
@@ -25,6 +26,37 @@
         <item name="android:fontFamily">@font/fonteprincipal</item>
         <item name="android:textSize">20dp</item>
     </style>
+    <!--aqui estão os estilos do miguel-->
+
+    <style name="ContainerComponentsm">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">220dp</item>
+        <item name="android:background">@android:color/transparent</item>
+
+        <item name="android:layout_margin">20dp</item>
+    </style>
+    <style name="Edit_Text2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edittext_borderm</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:maxLength">25</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+
+    </style>
+    <style name="Buttton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:backgroundTint"></item>
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@drawable/buttom</item>
+    </style>
+
 
 
 </resources>

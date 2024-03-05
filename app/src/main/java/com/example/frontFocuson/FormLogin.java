@@ -1,5 +1,6 @@
 package com.example.frontFocuson;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -14,6 +15,7 @@ import com.example.projetofirebase.R;
 
 public class FormLogin extends AppCompatActivity {
 
+    @SuppressLint("NewApi")
     public boolean validateLogin(String email, String password) {
         return !email.isEmpty() && !password.isEmpty();
     }

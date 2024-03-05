@@ -31,6 +31,7 @@
         android:hint="Username"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintEnd_toEndOf="@id/containerComponents"
+        android:inputType="text"
         app:layout_constraintTop_toTopOf="@id/containerComponents"
         />
     <!--caixa de senha-->
@@ -40,6 +41,7 @@
         android:layout_marginTop="10dp"
         android:textColorHint="@color/orange"
         android:hint="Password"
+        android:inputType="numberPassword"
         app:layout_constraintEnd_toEndOf="@id/containerComponents"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintTop_toBottomOf="@id/edit_userName" />
@@ -50,6 +52,7 @@
         android:layout_marginTop="80dp"
         android:textColorHint="@color/orange"
         android:hint="Confirmar Password"
+        android:inputType="numberPassword"
         app:layout_constraintEnd_toEndOf="@id/containerComponents"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintTop_toTopOf="@id/edit_password" />
@@ -62,6 +65,7 @@
         android:textColorHint="@color/orange"
         app:layout_constraintEnd_toEndOf="@id/containerComponents"
         app:layout_constraintHorizontal_bias="1.0"
+        android:inputType="textEmailAddress"
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintTop_toTopOf="@id/edit_confirm" />
 
@@ -98,6 +102,7 @@
         />
     <!--botão  para fazer login-->
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_login"
         style="@style/Buttton"
         android:layout_marginTop="80dp"
         android:text="Fazer login"
@@ -110,7 +115,7 @@
 
         <!--botão fazer Cadastre-se-->
     <androidx.appcompat.widget.AppCompatButton
-
+        android:id="@+id/button_cadastrar"
         style="@style/Buttton"
         android:layout_marginTop="40dp"
         android:text="Cadastre-se"

@@ -65,7 +65,7 @@
         app:layout_constraintStart_toStartOf="@id/containerComponents"
         app:layout_constraintTop_toTopOf="@id/edit_confirm" />
 
-    <!--caixa de chebox-->
+    <!--caixa de chebox do miguel-->
     <CheckBox
         android:id="@+id/minha_caixa_de_selecao"
         android:buttonTint="@color/orange"
@@ -96,7 +96,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         />
-    <!--botão fazer login-->
+    <!--botão  para fazer login-->
     <androidx.appcompat.widget.AppCompatButton
         style="@style/Buttton"
         android:layout_marginTop="80dp"

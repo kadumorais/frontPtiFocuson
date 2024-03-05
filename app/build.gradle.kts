@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.projetofirebase"
+    namespace = "com.example.frontFocuson"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.projetofirebase"
+        applicationId = "com.example.frontFocuson"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

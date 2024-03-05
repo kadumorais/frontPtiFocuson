@@ -1,14 +1,11 @@
-package com.example.projetofirebase.java;
+package com.example.frontFocuson.java;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
-import android.content.Context;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-
-import com.example.projetofirebase.FormLogin;
 
 import org.junit.Test;
+
+import com.example.frontFocuson.FormLogin;
 
 public class LoginFormTest {
 

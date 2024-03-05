@@ -1,4 +1,4 @@
-package com.example.projetofirebase.ui.theme
+package com.example.frontFocuson.ui.theme
 
 import android.app.Activity
 import android.os.Build

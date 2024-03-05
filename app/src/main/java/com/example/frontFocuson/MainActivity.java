@@ -1,4 +1,4 @@
-package com.example.projetofirebase;
+package com.example.frontFocuson;
 
 import androidx.appcompat.app.AppCompatActivity;
 
